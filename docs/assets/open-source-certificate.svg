@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+  <title id="title">GHOLL-ACCEL Open Source Attribution Certificate</title>
+  <desc id="desc">Open source attribution certificate for GHOLL-ACCEL Ultimate by BY_Gholl.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06130c"/>
+      <stop offset="0.48" stop-color="#081526"/>
+      <stop offset="1" stop-color="#02060c"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ff91"/>
+      <stop offset="1" stop-color="#51a2ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="14" y="14" width="972" height="332" rx="34" fill="url(#bg)" stroke="#00ff91" stroke-width="4"/>
+  <rect x="34" y="34" width="932" height="292" rx="24" fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+  <circle cx="122" cy="118" r="54" fill="rgba(0,255,145,0.13)" stroke="#00ff91" stroke-width="3"/>
+  <path d="M94 118l18 18 40-46" fill="none" stroke="#00ff91" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="205" y="88" fill="#00ff91" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="4">OPEN SOURCE ATTRIBUTION CERTIFICATE</text>
+  <text x="205" y="137" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="900">GHOLL-ACCEL Ultimate</text>
+  <rect x="205" y="164" width="660" height="6" rx="3" fill="url(#line)"/>
+  <text x="205" y="213" fill="rgba(255,255,255,0.86)" font-family="Segoe UI, Arial, sans-serif" font-size="24">Created by BY_Gholl · @byghollofficiall</text>
+  <text x="205" y="252" fill="rgba(255,255,255,0.72)" font-family="Segoe UI, Arial, sans-serif" font-size="19">Use, fork, modify and share under the MIT License.</text>
+  <text x="205" y="282" fill="rgba(255,255,255,0.72)" font-family="Segoe UI, Arial, sans-serif" font-size="19">Keep the original creator credit, LICENSE and NOTICE in substantial copies.</text>
+  <text x="790" y="310" fill="#00ff91" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">v1.0 · 2026</text>
+</svg>

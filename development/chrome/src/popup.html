@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GHOLL-ACCEL</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="popup">
+    <div class="brand">
+      <div class="logo">G</div>
+      <div>
+        <h1>GHOLL-ACCEL</h1>
+        <p>Stable v1</p>
+      </div>
+    </div>
+
+    <section class="card">
+      <div class="row"><span>Durum</span><b id="status">YouTube sekmesi bekleniyor</b></div>
+      <div class="row"><span>Hız</span><b id="speed">-</b></div>
+      <div class="row"><span>Hedef</span><b id="target">-</b></div>
+    </section>
+
+    <section class="actions">
+      <button id="toggleActive">Aktif/Pasif</button>
+      <button id="togglePanel">Panel</button>
+      <button id="resetRamp">Ramp Reset</button>
+      <button id="panic">Acil 1.0x</button>
+    </section>
+
+    <p class="hint">YouTube sayfasında panel görünmezse sayfayı yenile veya bu pencereden Panel butonuna bas.</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

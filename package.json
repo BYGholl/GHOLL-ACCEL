@@ -1,0 +1,22 @@
+{
+  "name": "gholl-accel",
+  "version": "1.0.0",
+  "description": "Open-source dual-browser YouTube speed ramp controller extension by BY_Gholl.",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "build": "python scripts/build_release.py",
+    "validate": "python scripts/build_release.py --validate-only"
+  },
+  "keywords": [
+    "youtube",
+    "chrome-extension",
+    "firefox-addon",
+    "brave-extension",
+    "manifest-v3",
+    "speed-controller",
+    "playback-rate",
+    "by-gholl"
+  ],
+  "author": "BY_Gholl <@byghollofficiall>"
+}

@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "GHOLL-ACCEL",
+  "version": "1.0.0",
+  "description": "Open-source YouTube speed ramp controller with session continuity, panel, mini HUD, presets, and safe 1x reset.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://youtube.com/*",
+    "*://www.youtube.com/*",
+    "*://*.youtube.com/*",
+    "*://www.youtube-nocookie.com/*"
+  ],
+  "action": {
+    "default_title": "GHOLL-ACCEL Ultimate",
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://youtube.com/*",
+        "*://www.youtube.com/*",
+        "*://*.youtube.com/*",
+        "*://www.youtube-nocookie.com/*"
+      ],
+      "js": [
+        "src/content.js"
+      ],
+      "css": [
+        "src/content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "minimum_chrome_version": "109",
+  "version_name": "1.0.0 Stable"
+}

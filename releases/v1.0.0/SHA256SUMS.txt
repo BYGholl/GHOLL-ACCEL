@@ -1,0 +1,2 @@
+5113fcb1931503de72e618f7b8373ef2311c0e8a9471b16c29ffc524b50bb6fc  GHOLL-ACCEL-chromium-v1.0.0.zip
+ae975214e4baae1b92b76d5c2c0b8aa0eaa23dd78b5ff7117b8c51cbd07f5464  GHOLL-ACCEL-firefox-v1.0.0.zip
